@@ -1,0 +1,23 @@
+<form action="">
+  <div class="categorie">
+      <h2 class="titreCategorie">Form</h2>
+      <div class="controle">
+          <input type='text' id='nom' class='etiquetteFlottant' name='nom' #name>
+          <label for='nom'>name</label>
+      </div>
+      <div class="controle">
+          <input type='text' id='age' class='etiquetteFlottant' name='age' #age>
+          <label for='age'>Age</label>
+      </div>
+      <div class="controle">
+        <input type='text' id='address' class='etiquetteFlottant' name='address' #address>
+        <label for='address'>Age</label>
+    </div>
+      <div class="controle">
+        <span (click)="addData(name.value,age.value,address.value)" >Add</span>
+    </div>
+  </div>
+</form>
+<p style="text-align: right;">
+  <button (click)="myclick()" >show book</button>
+</p>

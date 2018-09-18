@@ -1,0 +1,8 @@
+tr{
+  border:1px solid red;
+}
+ul li{
+  float: left;
+  padding: 0 40px;
+  list-style: none;
+}
